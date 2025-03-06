@@ -5,9 +5,10 @@
         </nav>
         <ul class="navbar-nav justify-content-end">
             <li class="nav-item d-flex align-items-center">
-                <a href="#" class="nav-link text-dark font-weight-bold">
+                <a href="#" class="nav-link text-white font-weight-bold">
                     <i class="fa fa-user me-sm-1"></i> <span>Perfil</span>
                 </a>
+                <i class="fa-solid fa-power-off"></i>
             </li>
         </ul>
     </div>

@@ -4731,7 +4731,7 @@ fieldset:disabled .btn {
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
-  --bs-nav-link-disabled-color: #6c757d;
+  --bs-nav-link-disabled-color: white;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -4875,6 +4875,14 @@ fieldset:disabled .btn {
 
 .tab-content>.active {
   display: block;
+}
+
+.navbar, .sidebar {
+  color: #ffffff;
+}
+
+.navbar a, .sidebar a {
+  color: #ffffff;
 }
 
 .navbar {
@@ -5377,7 +5385,7 @@ fieldset:disabled .btn {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
-  --bs-card-title-color: ;
+  --bs-card-title-color: white;
   --bs-card-subtitle-color: ;
   --bs-card-border-width: 0;
   --bs-card-border-color: rgba(0, 0, 0, 0.125);
@@ -5390,7 +5398,7 @@ fieldset:disabled .btn {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #fff;
+  --bs-card-bg: #7d1111;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -5441,7 +5449,7 @@ fieldset:disabled .btn {
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
-  color: var(--bs-card-title-color);
+  color: white;
 }
 
 .card-subtitle {
@@ -11314,7 +11322,7 @@ fieldset:disabled .btn {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #7d1111 !important;
 }
 
 .bg-body {
@@ -11326,7 +11334,7 @@ fieldset:disabled .btn {
 }
 
 .bg-gray-100 {
-  background-color: #f8f9fa !important;
+  background-color: black !important;
 }
 
 .bg-gray-200 {
@@ -21623,7 +21631,7 @@ fieldset:disabled .btn {
 }
 
 .badge.bg-white {
-  background: #fff;
+  background: #7d1111;
 }
 
 .badge {
@@ -22209,6 +22217,7 @@ fieldset:disabled .btn {
 .card .card-body {
   font-family: "Open Sans", sans-serif;
   padding: 1.5rem;
+  color: white;
 }
 
 .card.card-plain {
@@ -22275,7 +22284,7 @@ fieldset:disabled .btn {
 
 .card.card-background .card-body .author .name span,
 .card.card-background .card-body .author .name .stats {
-  color: #fff;
+  color: #7d1111;
 }
 
 .card.card-background:after {
@@ -23838,7 +23847,7 @@ hr.horizontal.gray-light {
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: 500;
-  color: #67748e;
+  color: white;
 }
 
 .navbar-vertical .navbar-nav .nav-link>i {
@@ -26145,6 +26154,7 @@ h4,
 .h4 {
   font-size: 1.5rem;
   line-height: 1.375;
+  color: white;
 }
 
 @media (max-width: 575.98px) {
@@ -26300,10 +26310,12 @@ p {
 
 .font-weight-bold {
   font-weight: 600 !important;
+  color: white;
 }
 
 .font-weight-bolder {
   font-weight: 700 !important;
+  color: white;
 }
 
 .font-italic {
